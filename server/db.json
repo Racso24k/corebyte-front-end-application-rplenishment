@@ -408,24 +408,6 @@
   ],
   "orders": [
     {
-      "id": "1001",
-      "client": "Bodega El Sol",
-      "date": "2025-06-01",
-      "product": "Vino Tinto Reserva 2020",
-      "quantity": 10,
-      "total": 1200,
-      "imageUrl": "https://ferrand.com.pe/cdn/shop/files/B3DC6785-9365-4C2B-A774-E75DE90C526B.png?crop=center&height=480&v=1729894924&width=480"
-    },
-    {
-      "id": "1002",
-      "client": "Viñedos Santa Clara",
-      "date": "2025-06-05",
-      "product": "Vino Blanco Chardonnay",
-      "quantity": 8,
-      "total": 880,
-      "imageUrl": "https://plazavea.vteximg.com.br/arquivos/ids/493484-1000-1000/932731.jpg"
-    },
-    {
       "id": "1003",
       "client": "Distribuidora Andina",
       "date": "2025-06-08",
@@ -507,14 +489,60 @@
       "imageUrl": "https://plazavea.vteximg.com.br/arquivos/ids/29321950-1000-1000/925177.jpg"
     },
     {
-      "id": "1012",
-      "client": "Vinoteca Andina",
-      "date": "2025-07-08",
-      "product": "Vino Tinto Crianza",
-      "quantity": 14,
-      "total": 1820,
-      "imageUrl": "https://tabernero.vteximg.com.br/arquivos/ids/155503-1000-1000/9010005981_1.jpg?v=637278351442070000"
+      "client": "petitavo",
+      "product": "VINO",
+      "quantity": 56,
+      "date": "2024-04-23",
+      "total": 45,
+      "imageUrl": "awdawd",
+      "id": "1012"
+    }
+  ],
+  "replenishment": [
+    {
+      "id": "1002",
+      "name": "Malbec",
+      "type": "Tinto",
+      "date": "2025-04-11",
+      "stockActual": 360,
+      "stockMinimo": 200,
+      "price": 30
+    },
+    {
+      "id": "1003",
+      "name": "Merlot",
+      "type": "Tinto",
+      "date": "2025-03-20",
+      "stockActual": 720,
+      "stockMinimo": 300,
+      "price": 30
+    },
+    {
+      "id": "1004",
+      "name": "Rosé",
+      "type": "Rosado",
+      "date": "2025-04-14",
+      "stockActual": 540,
+      "stockMinimo": 200,
+      "price": 30
+    },
+    {
+      "id": "1005",
+      "name": "Syrah",
+      "type": "Tinto",
+      "date": "2025-04-15",
+      "stockActual": 240,
+      "stockMinimo": 100,
+      "price": 30
+    },
+    {
+      "id": "d7tsIPd",
+      "name": "dawd",
+      "type": "awdawd",
+      "date": "1211-11-11",
+      "stockActual": 123,
+      "stockMinimo": 123123,
+      "price": 123123
     }
   ]
-
 }

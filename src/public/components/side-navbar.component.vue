@@ -36,6 +36,7 @@ const items = ref([
             {
                 label: t('navbar.orders'),
                 icon: 'pi pi-shopping-cart',
+                to : '/orders',
             },
             {
                 label: t('navbar.status'),
@@ -45,15 +46,18 @@ const items = ref([
             {
                 label: t('navbar.analysis'),
                 icon: 'pi pi-chart-bar',
+                to: '/analysis',
             },
             {
                 label: t('navbar.replenishment'),
                 icon: 'pi pi-box',
+                to: '/replenishment',
             },
             {
                 label: t('navbar.record'),
                 icon: 'pi pi-file',
                 to: '/record',
+
             },
             {
                 label: t('navbar.alert'),

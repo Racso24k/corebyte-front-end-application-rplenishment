@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router';
+import ReplenishmentComponent from "../replenishment/pages/replenishment.component.vue";
 
 const routes = [
     {
@@ -14,15 +15,22 @@ const routes = [
         path: '/orders/details/:id',
         name: 'OrderDetails',
         component: () => import('./../orders/pages/view-details-orders.component.vue'),
-
-    }
-    ,
+    },
     {
         path: '/orders/register',
         name: 'RegisterOrder',
-        component: () => import('../orders/pages/register-order.component.vue') // o el archivo correcto
+        component: () => import('../orders/pages/register-order.component.vue')
+    },
+    {
+        path: '/replenishment',
+        name: 'Replenishment',
+        component: ReplenishmentComponent
+    },
+    {
+        path: '/replenishment/register',
+        name: 'RegisterReplenishment',
+        component: () => import('../replenishment/pages/register-replenishment.component.vue')
     }
-
 ];
 
 const router = createRouter({
