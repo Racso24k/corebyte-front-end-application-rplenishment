@@ -4,7 +4,7 @@ import ReplenishmentComponent from "../replenishment/pages/replenishment.compone
 const routes = [
     {
         path: '/',
-        redirect: '/orders'
+        redirect: '/replenishment'
     },
     {
         path: '/orders',
